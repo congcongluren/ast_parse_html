@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "declaration": true, 
+        "outDir": "./lib", 
+        "noImplicitAny": false,
+        "target": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        // "module": "ES2020",
+        "jsx": "react",
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowJs": true,
+        "alwaysStrict": true,
+        "esModuleInterop": true,
+        // "sourceMap": true,
+        "baseUrl": "./",
+        "paths": {
+            "@src/*": ["src/*"]
+        },
+    },
+    "include": [
+        "src/**/*",
+        "**/*.ts", 
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules/**/*", "dist", "lib"
+    ]
+}
